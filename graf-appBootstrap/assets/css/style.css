@@ -1,0 +1,67 @@
+/* =========================
+   ESTILO GENERAL
+========================= */
+body{
+  background: #e3e3e3;
+}
+
+/* =========================
+   HEADER / FOOTER
+========================= */
+.topbar{
+  background: #0d6efd; /* Bootstrap primary */
+}
+
+.footerbar{
+  background: #6c757d; /* Bootstrap secondary */
+}
+
+/* =========================
+   TARJETAS (CARDS)
+========================= */
+.profile-card{
+  background: #f7f7f7;
+  border-radius: 22px;
+  padding: 28px 22px;
+  border: 1px solid rgba(0,0,0,.05);
+  box-shadow: 0 12px 30px rgba(0,0,0,.10);
+  transition: transform .2s ease, box-shadow .2s ease;
+  height: 100%;
+}
+
+.profile-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0,0,0,.14);
+}
+
+/* Avatar circular con borde y sombra */
+.profile-avatar{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 6px solid #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12);
+  margin-top: 6px;
+}
+
+/* Texto */
+.profile-name{
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.profile-text{
+  margin: 12px auto 18px;
+  max-width: 260px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Imagen de redes */
+.social-img{
+  height: 40px;
+  width: 140px;
+  object-fit: contain;
+  opacity: .95;
+}
